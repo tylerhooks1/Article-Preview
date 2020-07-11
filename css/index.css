@@ -64,7 +64,7 @@ body {
   background-color: hsl(210, 46%, 95%);
 }
 
-.btn, 
+.btn,
 .btn-active {
   height: 30px;
   width: 30px;
@@ -80,12 +80,12 @@ body {
 }
 
 .share-title {
-  color:hsl(212, 23%, 69%); 
-  font-size: 13px;  
+  color: hsl(212, 23%, 69%);
+  font-size: 13px;
 }
 
 .nav {
-  background-color:  hsl(217, 19%, 35%);
+  background-color: hsl(217, 19%, 35%);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   display: flex;
@@ -129,19 +129,18 @@ body {
 
   .share-space {
     display: none;
-    
   }
 
-  .nav {  
+  .nav {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     margin-top: 5.5rem;
     margin-left: 28.9rem;
     position: absolute;
     width: 230px;
-  } 
-  
-   .nav::after {
+  }
+
+  .nav::after {
     content: "";
     display: inline-block;
     position: absolute;
@@ -150,7 +149,6 @@ body {
     border-width: 12px;
     border-style: solid;
     border-color: hsl(217, 19%, 35%) transparent transparent transparent;
-
   }
 
   .nav button {
