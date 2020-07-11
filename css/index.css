@@ -1,0 +1,159 @@
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+.container {
+  max-width: 336px;
+}
+
+.card-size {
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.image-size {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.img-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.bodycopy,
+.title {
+  font-family: "Manrope", sans-serif;
+}
+
+.title {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+.bodycopy {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.text-color {
+  color: hsl(214, 17%, 51%);
+}
+
+.avatar {
+  height: 3rem;
+  padding-right: 4px;
+}
+
+.name {
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+.date {
+  color: hsl(212, 23%, 69%);
+}
+
+.btn {
+  background-color: hsl(210, 46%, 95%);
+}
+
+.btn, 
+.btn-active {
+  height: 30px;
+  width: 30px;
+}
+
+.btn-active {
+  background-color: hsl(214, 17%, 51%);
+}
+
+.share-space {
+  padding-left: 46px;
+  overflow: hidden;
+}
+
+.share-title {
+  color:hsl(212, 23%, 69%); 
+  font-size: 13px;  
+}
+
+.nav {
+  background-color:  hsl(217, 19%, 35%);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  margin-top: -65px;
+  z-index: 1;
+}
+
+.nav-warpper {
+  position: relative;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 658px;
+  }
+
+  .image-size {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0%;
+    object-fit: cover;
+  }
+
+  .img-wrapper {
+    height: 227px;
+    width: 100%;
+  }
+
+  .share-space {
+    display: none;
+    
+  }
+
+  .nav {  
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 5.5rem;
+    margin-left: 28.9rem;
+    position: absolute;
+    width: 230px;
+  } 
+  
+   .nav::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 80px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+
+  }
+
+  .nav button {
+    display: none;
+  }
+}
